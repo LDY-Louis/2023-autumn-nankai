@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.sta {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgba(15, 14, 14, 0.547);
+  position: fixed;
+  top: 10px;
+}
+
+.sta div .guide {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.sta div img {
+  height: 100px;
+}
+
+.guide a {
+  text-decoration: none;
+  width: 100px;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  color: gold;
+}
+
+.guide a:hover {
+  background-color: rgba(255, 217, 0, 0.547);
+}
+
+.left li {
+  float: left;
+
+}
+
+.right li {
+  float: right;
+
+}
+
+/* 以上是导航栏的属性书写 */
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/文艺复兴时期/背景图.jpg);
+  background-size: cover;
+}
+
+.main {
+  width: 350px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff49;
+  border-radius: 50px;
+  transform: translateY(-50px);
+}
+
+/* 使用弹性盒子布局，将大盒子放在中央，带点背景色 */
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  box-sizing: border-box;
+
+  border: 5px solid transparent;
+  background: rgba(255, 255, 255, .5);
+  border-radius: 100px;
+  padding: 5px 20px 0 20px;
+  transition: 0.3s;
+  font-size: 18px;
+  color: rgb(254, 237, 0)
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  background: transparent;
+  border: 1px solid #ffffff;
+
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 100px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: goldenrod;
+  transition: 0.3s;
+}
+
+.footer {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 100px;
+  border: none;
+  background-color: #f5b20799;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.footer a {
+  color: whitesmoke;
+  display: block;
+  width: 100%;
+}
+
+.footer:hover {
+  background-color: #fff;
+  border: 1px solid #07afdd;
+}
+
+.footer:hover a {
+  color: #000;
+}
+
+/* input::placeholder {
+  color: #92A7E8;
+} */

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(背景.png);
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.sta {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgba(15, 14, 14, 0.547);
+  position: fixed;
+  top: 10px;
+}
+
+.sta div .guide {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.sta div img {
+  height: 100px;
+}
+
+.guide a {
+  text-decoration: none;
+  width: 100px;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  color: gold;
+}
+
+.guide a:hover {
+  background-color: rgba(255, 217, 0, 0.547);
+}
+
+.left li {
+  float: left;
+
+}
+
+.right li {
+  float: right;
+
+}
+
+/* 以上是导航栏的属性书写 */
+.main {
+  padding: 100px;
+}
+
+.main ul li {
+  text-align: center;
+}
+
+.main ul li {
+  display: block;
+  width: 300px;
+  height: 350px;
+
+  margin: 50px;
+  float: left;
+  border-radius: 5%;
+}
+
+.main ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  background-color: #fff;
+  color: goldenrod;
+}
+
+.mid h2 {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  opacity: 1;
+}
+
+p {
+  padding: 10px;
+  line-height: 2em;
+  text-align: left;
+  opacity: 0;
+  color: rgb(255, 255, 0);
+}
+
+.mid {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  transition: all .4s ease-in-out;
+}
+
+.mid:hover {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  background-color: rgba(26, 2, 2, 0.396);
+}
+
+a .mid:hover p {
+  opacity: 1;
+  transition: all .6s ease-in-out;
+}
+
+#a1 {
+  background-image: url(中世纪/导航图.webp);
+}
+
+#a2 {
+  background-image: url(文艺复兴时期/导航图.webp);
+}
+
+#a3 {
+  background-image: url(巴洛克时期/导航图.webp);
+}
+
+#a4 {
+  background-image: url(古典主义时期/导航图.webp);
+}
+
+#a5 {
+  background-image: url(浪漫主义时期/导航图.bmp);
+}
+
+#a6 {
+  background-image: url(印象派/导航图.webp);
+}
+
+#a7 {
+  background-image: url(20世纪音乐/导航图.jpeg);
+}
+
+.music {
+  position: fixed;
+  left: 500px;
+  bottom: 10px;
+
+}
+
+audio {
+  background-color: transparent;
+}
